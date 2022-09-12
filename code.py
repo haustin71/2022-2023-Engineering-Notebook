@@ -8,4 +8,4 @@ dot.brightness = 0.5
 print("Make it Blue!")
 
 while True:
-    dot.fill((255, 0, 0))
+    dot.fill(0, 0, 255)
