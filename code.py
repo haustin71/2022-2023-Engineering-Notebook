@@ -1,18 +1,13 @@
 
 import time
 import board
-import pwmio
-import servo
+import adafruit_hcsr04
 
-pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
-
-
-my_servo = servo.Servo(pwm)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
 
 while True:
-    for angle in range(0, 180, 10):  # 0 - 180 degrees, 5 degrees at a time.
-        my_servo.angle = 180
-        time.sleep(0.08)
-    for angle in range(180, 0, -10): # 180 - 0 degrees, 5 degrees at a time.
-        my_servo.angle = 0
-        time.sleep(0.08)
+    try:
+        print((sonar.distance,))
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
