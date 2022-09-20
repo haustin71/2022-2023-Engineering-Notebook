@@ -1,6 +1,6 @@
 
 import time
-import board
+import board 
 import adafruit_hcsr04
 import neopixel
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
@@ -14,4 +14,4 @@ while True:
         print("Retrying!")
     time.sleep(0.1)
     if sonar.distance < 5:
-    dot.fill((255, 0, 0))
+     dot.fill((255, 0, 0))
