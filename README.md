@@ -1,3 +1,7 @@
+## Table of Contents
+* [Table of Contents](#Table-of-Contents)
+* [Servo](#Servo with Circuit Python)
+
 # Servo with Circuit Python
 I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
 This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
