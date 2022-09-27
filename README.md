@@ -1,6 +1,6 @@
 ## Table of Contents
 * [Table of Contents](#Table-of-Contents)
-* [Servo](#Servo with Circuit Python)
+* [Servo](#ServowithCircuitPython)
 
 # Servo with Circuit Python
 I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
