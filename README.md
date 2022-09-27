@@ -80,10 +80,10 @@ while True:
 
 ### Evidence
 
-![Servo Code](Cicuit Python Servo code.PNG)
+![Servo Code](Cicuit Python Servo code.jpg)
 
 ### Wiring
-
+![Servo wiring](Servo Wiring.jpg)
 
 ### Reflection
 
