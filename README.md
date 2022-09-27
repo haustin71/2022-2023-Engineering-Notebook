@@ -1,7 +1,12 @@
-# CPyProjectTemplate
-Put a description for your project here!
+## Table of Contents
+* [Table of Contents](#Table-of-Contents)
+* [Servo](#ServowithCircuitPython)
+
+# Servo with Circuit Python
+I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
 This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
-## Use
+## Code description 
+The Imports I used were Time, Board, PWMIO, and Servo.mpy.
 ### Every new project:
 1. Make a GitHub account if you don't have one with your normal school credentials and sign into it.
 2. Click the big green Use This Template button at the top of this page.
