@@ -10,12 +10,27 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+We had to make the Neopixel on the metro board change colors.
 
 Here's how you make code look like code:
 
 ```python
-Code goes here
+import board
+import neopixel
+import time
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+print("Make it Blue!")
+
+while True:
+    dot.fill((255, 0, 0))
+    time.sleep(1.0)
+    dot.fill((0, 255, 0))
+    time.sleep(1.0)
+    dot.fill((0, 0, 255))
+    time.sleep(1.0)
 
 ```
 
@@ -24,8 +39,6 @@ Code goes here
 
 
 And here is how you should give image credit to someone, if you use their work:
-
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
 
 
 
@@ -67,7 +80,7 @@ while True:
 
 ### Evidence
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
 
 ### Wiring
 
