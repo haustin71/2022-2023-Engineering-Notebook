@@ -54,7 +54,6 @@ The two hardest parts of this assignment were, trying to import the libraries in
 
 ## CircuitPython_Servo
 I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
-This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5.
 ### Description & Code
 The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
 ```python
