@@ -87,7 +87,7 @@ while True:
 
 ### Reflection
 
-Overall this assignment went well, I would say the only problem that I had was that I used the wrong pin for the servo in my code. At first I read the assignmetnand it said "So when you start searching for servo code, make sure there is a PWM object, and it is attached to a PWM pin, like D2-13, not A2!" and I thought that that meant that we shouldn't use the A pins so I connected the servo to D7 and I changed the value for the pin in this line of code
+Overall this assignment went well, I would say the only problem that I had was that I used the wrong pin for the servo in my code. At first I read the assignmetnand it said "So when you start searching for servo code, make sure there is a PWM object, and it is attached to a PWM pin, like D2-13, not A2!" and I thought that that meant that we shouldn't use the A pins so I connected the servo to D7 and I changed the pin where A1 is in this line of code. 
 ```python 
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
 ``` 
