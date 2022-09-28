@@ -91,7 +91,7 @@ Overall this assignment went well, I would say the only problem that I had was t
 ```python 
 pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
 ``` 
-So I ran the code and the servo didnt move and so I was confused becasue it said to not use the A pins. After like 10 minutes of trying to figure out what was wrong, I went back and read the instructions again and I realized that it said to just not use the A2 pin, so I swapped the pin o the board and changed the code and it worked.
+So I ran the code and the servo didnt move and so I was confused becasue it said to not use the A pins. After like 10 minutes of trying to figure out what was wrong, I went back and read the instructions again and I realized that it said to just not use the A2 pin, so I swapped the pin on the board and changed the code and it worked.
 
 ## CircuitPython_LCD
 
