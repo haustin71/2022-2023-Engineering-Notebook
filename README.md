@@ -1,33 +1,125 @@
-## Table of Contents
-* [Table of Contents](#Table-of-Contents)
-* [Servo](#ServowithCircuitPython)
 
-# Servo with Circuit Python
+## Table of Contents
+* [Table of Contents](#TableOfContents)
+* [Hello_CircuitPython](#Hello_CircuitPython)
+* [CircuitPython_Servo](#CircuitPython_Servo)
+* [CircuitPython_LCD](#CircuitPython_LCD)
+* [NextAssignmentGoesHere](#NextAssignment)
+---
+
+## Hello_CircuitPython
+
+### Description & Code
+We had to make the Neopixel on the metro board change colors.
+
+Here's how you make code look like code:
+
+```python
+import board
+import neopixel
+import time
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5 
+
+print("Make it Blue!")
+
+while True:
+    dot.fill((255, 0, 0))
+    time.sleep(1.0)
+    dot.fill((0, 255, 0))
+    time.sleep(1.0)
+    dot.fill((0, 0, 255))
+    time.sleep(1.0)
+
+```
+
+
+### Evidence
+
+
+
+
+### Wiring
+
+
+### Reflection
+The two hardest parts of this assignment were, trying to import the libraries into my Virtual Studio from the library Folder and Figuring out how to onnect the NeoPixel so that the code would work on the built in NeoPixel. To fix the Import issue in VS, first you need to find the file you want to import in your library folder in CircuitP(D:). Next you want to go into the Windows(C:) in the Navigation panel in File explorer ad click on the users folder and find your username. Next click on your username and then click on the file named Virtual Studio and then click on the lib folder. Finally the last step is to copy the file you want from your circuit python lib folder, into your Virtual Studio lib folder. You'll know that it worked becasue you should see the file you wanted in the lib folder on the side panel when you're in Virtual Studio. The Next issue that I had was trying to bridge the connection between Virtual Studio and the Metro Board. The command I used was            dot = neopixel.NeoPixel(board.NEOPIXEL, 1). "dot" is a value that I set for the neopixel, board.neopixel tells th Metro board to use the built-in neopixel as the output, and the 1 is the port to use for the neopixel.
+
+
+
+
+## CircuitPython_Servo
 I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
-This repo is a template VS code project for CircuitPython projects that automatically uploads your code to the board when you press F5. Requires F5Anything extension.
-## Code description 
-The Imports I used were Time, Board, PWMIO, and Servo.mpy.
-### Every new project:
-1. Make a GitHub account if you don't have one with your normal school credentials and sign into it.
-2. Click the big green Use This Template button at the top of this page.
-3. Name the new repository something appropriate to the purpose of your project (Your first one should probably be named `CircuitPython`).
-4. Hit "Create repository from template." (The default settings should be fine.)
-5. Open VS Code on your machine. Click Clone Repository.
-6. Paste in the link to the new repository you've just created from the template and hit enter.
-7. For the location, select the "STUDENT" drive if you have it or the document folder if you don't.
-8. Hit "Open Cloned Directory."
-9. Install the reccomended extensions when you get that popup in the lower right corner.
-### To commit from VS Code:
-1. Go to the little branch icon in the left bar of VS Code.
-2. Click the + icon next  to the files you want to commit.
-3. Write a message that descibes your changes in the "Message" box and hit commit.
-4. If you get an error about user.name and user.email, see the next section.
-5. Click the "Sync changes" button.
-### If you get an error about user.name and user.email
-1. Open Git Bash from the Windows Search Bar.
-2. FIlling in your actual information, run the following commands one line at a time. The paste shortcut is `Shift+Insert` or you can right click then hit paste. Spelling must match exactly:
+### Description & Code
+The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
+```python
+import time
+import board
+import pwmio
+import servo
+
+pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
+
+
+my_servo = servo.Servo(pwm)
+
+while True:
+    for angle in range(0, 180, 10):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo.angle = 180
+        time.sleep(0.08)
+    for angle in range(180, 0, -10): # 180 - 0 degrees, 5 degrees at a time.
+        my_servo.angle = 0
+        time.sleep(0.08)
+
 ```
-git config --global user.name YOURUSERNAME
-git config --global user.email YOURSCHOOLEMAIL
+
+### Evidence
+
+![Servo Code](Cicuit Python Servo code.jpg)
+
+### Wiring
+![Servo wiring](Servo Wiring.jpg)
+
+### Reflection
+
+Overall this assignment went well, I would say the only problem that I had was that I used the wrong pin for the servo in my code. At first I read the assignmetnand it said "So when you start searching for servo code, make sure there is a PWM object, and it is attached to a PWM pin, like D2-13, not A2!" and I thought that that meant that we shouldn't use the A pins so I connected the servo to D7 and I changed the pin where A1 is in this line of code. 
+```python 
+pwm = pwmio.PWMOut(board.A1, duty_cycle=2 ** 15, frequency=50)
+``` 
+So I ran the code and the servo didnt move and so I was confused becasue it said to not use the A pins. After like 10 minutes of trying to figure out what was wrong, I went back and read the instructions again and I realized that it said to just not use the A2 pin, so I swapped the pin on the board and changed the code and it worked.
+
+## CircuitPython_LCD
+
+### Description & Code
+
+```python
+Code goes here
+
 ```
-3. Return to step 3 of the previous section.
+
+### Evidence
+
+
+### Wiring
+
+### Reflection
+
+
+
+
+
+## Distance Sensor
+
+### Description & Code
+
+```python
+Code goes here
+
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
