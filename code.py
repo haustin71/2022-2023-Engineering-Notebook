@@ -18,7 +18,8 @@ btn2.pull = Pull.UP
 lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
 
 while True:
-        if btn.value:
+       if not btn2.value:
+        if not btn.value:
             lcd.clear()
             lcd.set_cursor_pos(0, 0)
             lcd.print("countval")
@@ -28,7 +29,7 @@ while True:
         else:
             pass
     
-        if not btn.value:
+        if not btn2.value:
             lcd.clear()
             lcd.set_cursor_pos(0, 0)
             lcd.print("countval")
@@ -37,3 +38,4 @@ while True:
             lcd.print(str(countval))
         else:
             pass
+            time.sleep(0.1) # sleep for debounce
