@@ -78,8 +78,7 @@ while True:
 ```
 
 ### Evidence
-
-![Servo Code](Cicuit Python Servo code.jpg)
+https://user-images.githubusercontent.com/71406907/197803297-9471980e-0907-41c7-9093-cd9c9b0be88d.mov
 
 ### Wiring
 ![Servo wiring](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Servo%20Wiring.jpg)
@@ -205,7 +204,7 @@ while True:
 ### Evidence
 
 
-https://user-images.githubusercontent.com/71406907/197803297-9471980e-0907-41c7-9093-cd9c9b0be88d.mov
+
 
 
 ### Wiring
