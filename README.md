@@ -39,6 +39,8 @@ while True:
 
 
 
+https://user-images.githubusercontent.com/71406907/197802759-367c34ee-6c49-40c0-af14-fa3392099f37.mp4
+
 
 ### Wiring
 
