@@ -54,6 +54,7 @@ I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
 ### Description & Code
 The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
 ```python
+#Credit to Jack H. and Robel G. for the code
 import time
 import board
 import pwmio
@@ -94,7 +95,59 @@ So I ran the code and the servo didnt move and so I was confused becasue it said
 ### Description & Code
 
 ```python
-Code goes here
+import board
+import time
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from digitalio import DigitalInOut, Direction, Pull
+
+# get and i2c object
+i2c = board.I2C()
+btn = DigitalInOut(board.D3)
+btn2 = DigitalInOut(board.D2)
+btn.direction = Direction.INPUT
+btn.pull = Pull.UP
+btn2.direction = Direction.INPUT
+btn2.pull = Pull.UP
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+cur_state = True
+prev_state = True
+cur_state2 = True
+prev_state2 = True
+buttonPress = 0
+
+while True:
+    while btn2.value == False:
+        lcd.set_cursor_pos(1,0)
+        lcd.print("UP  ")
+        cur_state = btn.value
+        if cur_state != prev_state:
+            if not cur_state:
+                buttonPress = buttonPress + 1
+                lcd.clear()
+                lcd.set_cursor_pos(0,0)
+                lcd.print(str(buttonPress))
+            else:
+                lcd.clear()
+                lcd.set_cursor_pos(0,0)
+                lcd.print(str(buttonPress))
+        prev_state = cur_state
+    else:
+        lcd.set_cursor_pos(1,0)
+        lcd.print("DOWN")
+        cur_state2 = btn.value
+        if cur_state2 != prev_state2:
+            if not cur_state2:
+                buttonPress = buttonPress - 1
+                lcd.clear()
+                lcd.set_cursor_pos(0,0)
+                lcd.print(str(buttonPress))
+            else:
+                lcd.clear()
+                lcd.set_cursor_pos(0,0)
+                lcd.print(str(buttonPress))
+        prev_state2 = cur_state2
 
 ```
 
@@ -104,7 +157,7 @@ Code goes here
 ### Wiring
 
 ### Reflection
-
+Overall this assignment was really hard because I had to try and figure out how to not only make an lcd work, I also had to figure out how a button works in circuit python. I kept running into trouble when I was trying to get the buttons to work because only one button would work and then when I tried to program the other button, it would break the lcd screen and cause it to flash the text.
 
 
 
@@ -114,7 +167,32 @@ Code goes here
 ### Description & Code
 
 ```python
-Code goes here
+import time
+#Credit to Kattni Rembor for the Adafruit Tutorial code for the ultrasonic sensor
+
+import board 
+import adafruit_hcsr04
+import neopixel
+import simpleio
+distance = 0
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+dot.brightness = 0.5
+while True:
+    try:
+        distance = sonar.distance
+        print((distance))
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
+    if distance >= 5 and distance <= 20:
+        simpleio.map_range(distance,5,20,0,255)
+        dot.fill((0, 0, 255))
+    else:
+        dot.fill((0,255,0))
+        if distance <=5 and distance >=0:
+            simpleio.map_range(distance,5,0,255,0)
+            dot.fill((255, 0, 0))
 
 ```
 
