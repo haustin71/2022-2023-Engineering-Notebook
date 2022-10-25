@@ -80,7 +80,7 @@ while True:
 ![Servo Code](Cicuit Python Servo code.jpg)
 
 ### Wiring
-![Servo wiring](Servo Wiring.jpg)
+![Servo wiring](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Servo%20Wiring.jpg)
 
 ### Reflection
 
