@@ -56,7 +56,7 @@ I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
 ### Description & Code
 The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
 ```python
-#Credit to Jack H. and Robel G. for the code
+
 import time
 import board
 import pwmio
@@ -96,6 +96,7 @@ So I ran the code and the servo didnt move and so I was confused becasue it said
 ### Description & Code
 
 ```python
+# Credit to Jack H. and Robel G. for the code
 import board
 import time
 from lcd.lcd import LCD
