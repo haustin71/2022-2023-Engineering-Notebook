@@ -229,7 +229,7 @@ This Assignment was Broken into 4 Parts and was split between myself and my part
 ![Prop](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Prop.PNG)
 ![Assembly 1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Assembly%201.PNG)
 ![Assembly 2](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Assembly%202.PNG)
-[4.0 Onshape Document(https://cvilleschools.onshape.com/documents/17cfa26e36de454af07126e5/w/881d18355baad003fe7f630b/e/dea2b9ea183a5f7648c690ea?renderMode=0&uiState=6359c85a21769a153df12894)
+[Grant and Holden Onshape Document](https://cvilleschools.onshape.com/documents/17cfa26e36de454af07126e5/w/881d18355baad003fe7f630b/e/dea2b9ea183a5f7648c690ea?renderMode=0&uiState=6359c85a21769a153df12894)
 ### Reflection
 Overall, this assignment was pretty easy, even though I got the hard part. I think that the instructions were very clear and detailed and I also think that It served as a good refresher for going back into Onshape. From this assignment I learned some of the usefull shortcuts and I also learned how to correctly use the helix feature and I learned how to animate an assembly. 
 
