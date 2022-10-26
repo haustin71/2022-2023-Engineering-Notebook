@@ -4,7 +4,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [CircuitPython_Distance Sensor](#Distance Sensor)
+* [CircuitPython_Distance Sensor](#Distance_Sensor)
 * [Unit 4](#Unit_4)
 *
 
@@ -55,9 +55,9 @@ The two hardest parts of this assignment were, trying to import the libraries in
 
 
 ## CircuitPython_Servo
-I was tasked with making a servo sweep from 0 to 180 using Circuit Python.
+
 ### Description & Code
-The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
+I was tasked with making a servo sweep from 0 to 180 using Circuit Python. The Imports I used were Time, Board, PWMIO, and Servo.mpy. Servo.mpy allows the servo to move in two directions when you use the range function. I put the three important values for the range in the parenthesis, first the Minimum value, then the maximum value, and finally the number of degrees the servo will move each period of time.
 ```python
 
 import time
@@ -210,13 +210,13 @@ while True:
 ### Evidence and Wiring
 
 ### Reflection
+Overall, this assignment wasn't that difficult, the only difficult part was trying to get the green color to match up with the values. I fixed the missing color by adding this else, ```python
+else:
+        dot.fill((0,255,0))
+       ``` this made every other value over 20 make the neopixel turn green.
 
 
 
-
-### Wiring
-
-### Reflection
 
 ## Unit_4
 
