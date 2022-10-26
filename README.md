@@ -4,7 +4,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [CircuitPython_Distance Sensor](#Distance_Sensor)
+* [CircuitPython_Distance Sensor](#Distance Sensor)
 * [Unit 4](#Unit_4)
 *
 
@@ -208,7 +208,7 @@ while True:
 ```
 
 ### Evidence and Wiring
-file:///home/chronos/u-7cad54f1494875629071d6be98ecbc66ce09ebae/MyFiles/Downloads/IMG_0801%20(1).mp4
+
 ### Reflection
 
 
