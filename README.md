@@ -96,6 +96,7 @@ So I ran the code and the servo didnt move and so I was confused becasue it said
 ## CircuitPython_LCD
 
 ### Description & Code
+I was tasked with making an LCD screen show a counter and wire to inputs to the lcd screen so that when one input is pressed the variable counts up and if the other input is pressed, the variable would count down. The two inputs that I used were push buttons.
 
 ```python
 # Credit to Jack H. and Robel G. for the code
@@ -155,14 +156,14 @@ while True:
 
 ```
 
-### Evidence
+### Evidence and Wiring
 
 
 https://user-images.githubusercontent.com/71406907/197800787-38db0131-d6d9-48df-8e73-7363c4fc47f9.mp4
 
 
 
-### Wiring
+
 
 ### Reflection
 Overall this assignment was really hard because I had to try and figure out how to not only make an lcd work, I also had to figure out how a button works in circuit python. I kept running into trouble when I was trying to get the buttons to work because only one button would work and then when I tried to program the other button, it would break the lcd screen and cause it to flash the text.
