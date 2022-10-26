@@ -225,7 +225,7 @@ else:
 This Assignment was Broken into 4 Parts and was split between myself and my partner Grant. Each Partner was tasked with creating two parts each and at the end we would put all of our parts in an asssembly and see if they matched up. I was tasked with making the Spinner and the Prop for the Pull Copter.
 ### CAD
 [Unit 4 Grant and Holden Onshape Document](https://cvilleschools.onshape.com/documents/17cfa26e36de454af07126e5/w/881d18355baad003fe7f630b/e/4d49e5e47b6c8a16b61cfe06?renderMode=0&uiState=6359c49521769a153df1222c)
-
+![Spinner](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Spinner.PNG)
 ### Reflection
 Overall, this assignment was pretty easy, even though I got the hard part. I think that the instructions were very clear and detailed and I also think that It served as a good refresher for going back into Onshape. From this assignment I learned some of the usefull shortcuts and I also learned how to correctly use the helix feature and I learned how to animate an assembly. 
 
