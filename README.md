@@ -43,7 +43,7 @@ while True:
 
 
 
-https://user-images.githubusercontent.com/71406907/197802759-367c34ee-6c49-40c0-af14-fa3392099f37.mp4
+
 
 
 ### Wiring
@@ -209,7 +209,7 @@ while True:
 ```
 
 ### Evidence and Wiring
-
+https://user-images.githubusercontent.com/71406907/197802759-367c34ee-6c49-40c0-af14-fa3392099f37.mp4
 ### Reflection
 Overall, this assignment wasn't that difficult, the only difficult part was trying to get the green color to match up with the values. I fixed the missing color by adding this else, ```python
 else:
@@ -222,11 +222,12 @@ else:
 ## Unit_4
 
 ### Description
-
+This Assignment was Broken into 4 Parts and was split between myself and my partner Grant. Each Partner was tasked with creating two parts each and at the end we would put all of our parts in an asssembly and see if they matched up. I was tasked with making the Spinner and the Prop for the Pull Copter.
 ### CAD
+[Unit 4 Grant and Holden Onshape Document](https://cvilleschools.onshape.com/documents/17cfa26e36de454af07126e5/w/881d18355baad003fe7f630b/e/4d49e5e47b6c8a16b61cfe06?renderMode=0&uiState=6359c49521769a153df1222c)
 
 ### Reflection
-
+Overall, this assignment was pretty easy, even though I got the hard part. I think that the instructions were very clear and detailed and I also think that It served as a good refresher for going back into Onshape. From this assignment I learned some of the usefull shortcuts and I also learned how to correctly use the helix feature and I learned how to animate an assembly. 
 
 ## Swing Arm
 
