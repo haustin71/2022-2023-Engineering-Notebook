@@ -4,6 +4,7 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircuitPython_Distance Sensor](#Distance_Sensor)
 * [Unit 4](#Unit_4)
 *
 
@@ -174,6 +175,7 @@ Overall this assignment was really hard because I had to try and figure out how 
 ## Distance Sensor
 
 ### Description & Code
+I was tasked with making an ultrasonic sensor read the distance from an object and change colors when certain distances are reached.
 
 ```python
 import time
@@ -205,8 +207,9 @@ while True:
 
 ```
 
-### Evidence
-
+### Evidence and Wiring
+file:///home/chronos/u-7cad54f1494875629071d6be98ecbc66ce09ebae/MyFiles/Downloads/IMG_0801%20(1).mp4
+### Reflection
 
 
 
