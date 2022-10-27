@@ -248,11 +248,11 @@ This Assignment was harder than the previous assignment. I had the most trouble 
 ### Description
 This Assignment was very similar to the Swing Arm because I was tasked with designing multiple parts from the drawings that were given in the document. Instead of just making one part, we had to make multiple parts in the same studio.
 ### CAD
-This is the Cylinder Assembly for question 1:
+This is the Cylinder Assembly for question 1
 ![Q1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%201.PNG)
 ![Q1.1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%202.PNG)
 
-This is the Cylinder Assembly for question 2:
+This is the Cylinder Assembly for question 2
 
 ![Q2](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%203.PNG)
 
