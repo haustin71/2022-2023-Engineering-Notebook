@@ -4,10 +4,10 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [CircuitPython_Distance Sensor](#Distance Sensor)
+* [CircuitPython_Distance Sensor](#Distance_Sensor)
 * [Onshape Unit 4](#Unit_4)
-* [Onshape Swing Arm](#Swing Arm)
-* [Onshape Multi-Part Studio](#Multi-Part Studio)
+* [Onshape Swing Arm](#Swing_Arm)
+* [Onshape Multi-Part Studio](#Multi-Part_Studio)
 
 ---
 
@@ -170,7 +170,7 @@ Overall this assignment was really hard because I had to try and figure out how 
 
 
 
-## Distance Sensor
+## Distance_Sensor
 
 ### Description & Code
 I was tasked with making an ultrasonic sensor read the distance from an object and change colors when certain distances are reached.
@@ -230,7 +230,7 @@ This Assignment was Broken into 4 Parts and was split between myself and my part
 ### Reflection
 Overall, this assignment was pretty easy, even though I got the hard part. I think that the instructions were very clear and detailed and I also think that It served as a good refresher for going back into Onshape. From this assignment I learned some of the usefull shortcuts and I also learned how to correctly use the helix feature and I learned how to animate an assembly. 
 
-## Swing Arm
+## Swing_Arm
 
 ### Description
 I was tasked with making a swing arm going off of the drawings that were given on the document. This Assignment is practice for when we take the Onshape certification exam. I was given two steps of instructions and each instruction changed 3 different variables.
@@ -243,7 +243,7 @@ I was tasked with making a swing arm going off of the drawings that were given o
 ### Reflection
 This Assignment was harder than the previous assignment. I had the most trouble trying to figure out how to create the curved shape in the middle. From this assignment, I learned how to look at different drawings and recreate the part using the given values. I also learned that its a lot easier sometimes to use constraints firt instead of going straight into dimensioning.
 
-## Multi-Part Studio
+## Multi-Part_Studio
 
 ### Description
 This Assignment was very similar to the Swing Arm because I was tasked with designing multiple parts from the drawings that were given in the document. Instead of just making one part, we had to make multiple parts in the same studio.
