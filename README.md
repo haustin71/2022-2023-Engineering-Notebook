@@ -4,10 +4,10 @@
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
-* [CircuitPython_Distance Sensor](#Distance_Sensor)
+* [CircuitPython_Distance Sensor](#Distance Sensor)
 * [Onshape Unit 4](#Unit_4)
-* [Onshape Swing Arm](#Swing_Arm)
-* [Onshape Multi-Part Studio](#Multi-Part_Studio)
+* [Onshape Swing Arm](#Swing Arm)
+* [Onshape Multi-Part Studio](#Multi-Part Studio)
 
 ---
 
