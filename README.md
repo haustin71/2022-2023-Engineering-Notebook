@@ -40,9 +40,9 @@ while True:
 
 ### Evidence & Wiring
 The Video for my neopixel got deleted and so I don't currently have a video of my neopixel flashing, but here is a image of where the built in neopixel is
+
+
 ![Neopixel](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Neopixel.PNG)
-
-
 
 
 
