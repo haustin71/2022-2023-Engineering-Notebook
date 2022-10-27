@@ -232,9 +232,13 @@ Overall, this assignment was pretty easy, even though I got the hard part. I thi
 ### Description
 I was tasked with making a swing arm going off of the drawings that were given on the document. This Assignment is practice for when we take the Onshape certification exam. I was given two steps of instructions and each instruction changed 3 different variables.
 ### CAD
-
+![Part 1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Swing%20Arm%201.PNG)
+![Part 2](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Swing%20Arm%202.PNG)
+![Part 3](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Swing%20Arm%20step%202.PNG)
+![Part 4](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Swing%20Arm%20step%203.PNG)
+[Holden A Swing Arm Onshape Document](https://cvilleschools.onshape.com/documents/3d028f81ae540185a3d04085/w/7465647970d0ff93aa4679b3/e/d53119136accd6e31c6e04b0?renderMode=0&uiState=6359cdee38fff70f91ddb090)
 ### Reflection
-
+This Assignment was harder than the previous assignment. I had the most trouble trying to figure out how to create the curved shape in the middle. From this assignment, I learned how to look at different drawings and recreate the part using the given values. I also learned that its a lot easier sometimes to use constraints firt instead of going straight into dimensioning.
 
 ## Multi-Part Studio
 
