@@ -251,8 +251,11 @@ This Assignment was very similar to the Swing Arm because I was tasked with desi
 This is the Cylinder Assembly for question 1:
 ![Q1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%201.PNG)
 ![Q1.1](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%202.PNG)
+
 This is the Cylinder Assembly for question 2:
+
 ![Q2](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%203.PNG)
+
 This is the Cylinder Assembly for questions 3 and 4
 
 ![Q3&4](https://raw.githubusercontent.com/haustin71/Circuit-Python/master/Multi-part%204.PNG)
