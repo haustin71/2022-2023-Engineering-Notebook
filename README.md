@@ -14,9 +14,8 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-We had to make the Neopixel on the metro board change colors.
+I was tasked with making the Neopixel on the adafruit metro board change colors.
 
-Here's how you make code look like code:
 
 ```python
 import board
@@ -40,11 +39,6 @@ while True:
 
 
 ### Evidence
-
-
-
-
-
 
 ### Wiring
 
