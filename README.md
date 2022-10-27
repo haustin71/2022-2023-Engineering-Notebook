@@ -230,7 +230,7 @@ Overall, this assignment was pretty easy, even though I got the hard part. I thi
 ## Swing Arm
 
 ### Description
-
+I was tasked with making a swing arm going off of the drawings that were given on the document. This Assignment is practice for when we take the Onshape certification exam. I was given two steps of instructions and each instruction changed 3 different variables.
 ### CAD
 
 ### Reflection
