@@ -3,14 +3,14 @@ from unittest.mock import MagicProxy
 import board
 import time
 from analogio import AnalogIn
-import pwmio
-from adafruit_motorkit import MotorKit
-kit = MotorKit(pwm)
-pwm = pwmio.PWMOut(board.D8, frequency=50)
-potentiometer = AnalogIn(board.A1)  
+from analogio import AnalogOut
+from adafruit_motor import motor as motor
+
+motor = AnalogOut(board.A0)
+potentiometer = AnalogIn(board.A2)  # potentiometer connected to A1, power & ground
 
 while True:
-
-    print((potentiometer.value,))    
-
-    time.sleep(0.25)      
+    motor.val = potentiometer.value
+    motor.value = motorVal
+    print(motorVal)
+    time.sleep(0.05)
