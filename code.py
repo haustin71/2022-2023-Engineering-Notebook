@@ -1,16 +1,10 @@
-
-from unittest.mock import MagicProxy
 import board
 import time
-from analogio import AnalogIn
-from analogio import AnalogOut
-from adafruit_motor import motor as motor
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+import analogio
 
-motor = AnalogOut(board.A0)
-potentiometer = AnalogIn(board.A2)  # potentiometer connected to A1, power & ground
-
-while True:
-    motor.val = potentiometer.value
-    motor.value = motorVal
-    print(motorVal)
-    time.sleep(0.05)
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+tmp36 = analogio.AnalogIn(board.A1)
+tmp36.value
