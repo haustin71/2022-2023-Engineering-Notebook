@@ -263,3 +263,39 @@ This is the Cylinder Assembly for questions 3 and 4
 [Holden A Multi-Part Studio Document](https://cvilleschools.onshape.com/documents/cc8d8824d0cb3cc32b86f00c/w/83e26c2c310fc5a85afd3479/e/99d8d6019cf8e8d9a5570a31?renderMode=0&uiState=6359d2b7b7948a2d7b607883)
 ### Reflection
 Overall I enjoyed this asignment because it was really good practice for the Onshape Certification Test. I didn't have much trouble when I was creating the parts, the only two problems that I had were, creating the revolve cut around the ring on the top cap and trying to get the weight to be exact. To create the correct revolve cut, I needed to switch the plane of the sketch so that it was on the top cap instead of above the top cap. Once I did that, I could then revolve the ring with the cut around the hole where the plunger went. As for the weight, I went back and checked all of my changed measurements for the questions and I realised that I forgot to change 1 or 2 dimesions which slightly changed the weight. From completing this assignment, I learned how to better read drawings and find the connection between them.
+
+##Temperature Sensor
+
+##Description
+
+##Wiring Diagram
+
+##Code
+
+##Reflection
+
+##Rotary Encoder
+
+##Description
+
+##Wiring Diagram
+
+##Code
+
+##Reflection
+
+##Photointerruptor
+
+##Description
+
+##Wiring Diagram
+
+##Code
+
+##Reflection
+
+##Onshape Certification
+
+##Description
+
+##Reflection
