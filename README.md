@@ -267,13 +267,50 @@ Overall I enjoyed this asignment because it was really good practice for the Ons
 ## Temperature Sensor
 
 ### Description
-
+I was tasked with using a temperature sensor as an input and a LCD Screen as an output to display the current temperature.
 ### Wiring Diagram
 
 ### Code
+```python
+import time
+import board
+import analogio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
+#connect the LCD and the temp sensor 
+tmp36 = analogio.AnalogIn(board.A1)
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+
+def tmp36_temperature_C(analogin):
+    millivolts = analogin.value * (analogin.reference_voltage * 1000 / 65535)
+    return (millivolts - 500) / 10
+
+# the desired min and max temperature 
+min_temp = 45
+max_temp = 90
+
+while True:
+    # Read the temperature from the sensor and turn it into Celsius and Fahrenheit
+    temp_c = tmp36_temperature_C(tmp36)
+    temp_f = (temp_c * 9 / 5) + 32
+
+    # Print the temperature in Fahrenheit
+    lcd.print("{:.1f} F".format(temp_f))
+    time.sleep(1)
+    lcd.clear()
+    #Print the three required phrases
+    if temp_f >= min_temp and temp_f <= max_temp:
+        lcd.print("It feels great in here")
+    elif temp_f < min_temp:
+        lcd.print("brrr Too Cold!")
+    else:
+        lcd.print("Too Hot!")
+```
 ### Reflection
-
+Overall, this assignment was really hard because3 I struggled with trying to get VS code to work because there was a software issue that lasted for a week. One of the biggest Issues that I had with the code was getting the LCD to display text as well as getting the LCD to display the right information. I probably would've finished the assignment earlier if VS code was working when I first started.
 ## Rotary Encoder
 
 ### Description
