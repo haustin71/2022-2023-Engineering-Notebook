@@ -8,6 +8,10 @@
 * [Onshape Unit 4](#Unit_4)
 * [Onshape Swing Arm](#Swing_Arm)
 * [Onshape Multi-Part Studio](#Multi-Part_Studio)
+* [Temperature Sensor](#Temperature_Sensor)
+* [Rotary Encoder](#Rotary_Encoder)
+* [Photinterrupter](#Photointerrupter)
+* [Onshape Certification](#Onshape_Certification)
 
 ---
 
@@ -311,6 +315,7 @@ while True:
 ```
 ### Reflection
 Overall, this assignment was really hard because3 I struggled with trying to get VS code to work because there was a software issue that lasted for a week. One of the biggest Issues that I had with the code was getting the LCD to display text as well as getting the LCD to display the right information. I probably would've finished the assignment earlier if VS code was working when I first started.
+
 ## Rotary Encoder
 
 ### Description
@@ -321,7 +326,7 @@ Overall, this assignment was really hard because3 I struggled with trying to get
 
 ### Reflection
 
-## Photointerruptor
+## Photointerrupte
 
 ### Description
 
