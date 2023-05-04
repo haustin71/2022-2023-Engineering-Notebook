@@ -8,10 +8,10 @@
 * [Onshape Unit 4](#Unit_4)
 * [Onshape Swing Arm](#Swing_Arm)
 * [Onshape Multi-Part Studio](#Multi-Part_Studio)
-* [Temperature Sensor](#Temperature_Sensor)
-* [Rotary Encoder](#Rotary_Encoder)
+* [Temperature Sensor](#Temperature Sensor)
+* [Rotary Encoder](#Rotary Encoder)
 * [Photinterrupter](#Photointerrupter)
-* [Onshape Certification](#Onshape_Certification)
+* [Onshape Certification](#Onshape Certification)
 
 ---
 
