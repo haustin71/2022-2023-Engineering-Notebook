@@ -8,10 +8,10 @@
 * [Onshape Unit 4](#Unit_4)
 * [Onshape Swing Arm](#Swing_Arm)
 * [Onshape Multi-Part Studio](#Multi-Part_Studio)
-* [Temperature Sensor](#Temperature Sensor)
-* [Rotary Encoder](#Rotary Encoder)
+* [Temperature Sensor](#Temperature_Sensor)
+* [Rotary Encoder](#Rotary_Encoder)
 * [Photinterrupter](#Photointerrupter)
-* [Onshape Certification](#Onshape Certification)
+* [Onshape Certification](#Onshape_Certification)
 
 ---
 
@@ -268,7 +268,7 @@ This is the Cylinder Assembly for questions 3 and 4
 ### Reflection
 Overall I enjoyed this asignment because it was really good practice for the Onshape Certification Test. I didn't have much trouble when I was creating the parts, the only two problems that I had were, creating the revolve cut around the ring on the top cap and trying to get the weight to be exact. To create the correct revolve cut, I needed to switch the plane of the sketch so that it was on the top cap instead of above the top cap. Once I did that, I could then revolve the ring with the cut around the hole where the plunger went. As for the weight, I went back and checked all of my changed measurements for the questions and I realised that I forgot to change 1 or 2 dimesions which slightly changed the weight. From completing this assignment, I learned how to better read drawings and find the connection between them.
 
-## Temperature Sensor
+## Temperature_Sensor
 
 ### Description
 I was tasked with using a temperature sensor as an input and a LCD Screen as an output to display the current temperature.
@@ -316,7 +316,7 @@ while True:
 ### Reflection
 Overall, this assignment was really hard because3 I struggled with trying to get VS code to work because there was a software issue that lasted for a week. One of the biggest Issues that I had with the code was getting the LCD to display text as well as getting the LCD to display the right information. I probably would've finished the assignment earlier if VS code was working when I first started.
 
-## Rotary Encoder
+## Rotary_Encoder
 
 ### Description
 
@@ -326,7 +326,7 @@ Overall, this assignment was really hard because3 I struggled with trying to get
 
 ### Reflection
 
-## Photointerrupte
+## Photointerrupter
 
 ### Description
 
@@ -336,7 +336,7 @@ Overall, this assignment was really hard because3 I struggled with trying to get
 
 ### Reflection
 
-## Onshape Certification
+## Onshape_Certification
 
 ### Description
 
