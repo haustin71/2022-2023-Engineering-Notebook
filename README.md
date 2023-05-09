@@ -321,7 +321,8 @@ Overall, this assignment was really hard because3 I struggled with trying to get
 ### Description
 I was tasked with using a rotary encoder to control 3 LED's and a menu on the LCD screen
 ### Wiring Diagram
-
+![Rotarty Encoder Diagram](Images and Videos/RotaryEncoder Wiring Diagram.PNG)
+![Rotary Encoder Proof](Images and Videos/IMG_0900.mp4)
 ### Code
 Code created by River Lewis
 ```python
