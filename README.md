@@ -319,13 +319,84 @@ Overall, this assignment was really hard because3 I struggled with trying to get
 ## Rotary_Encoder
 
 ### Description
-
+I was tasked with using a rotary encoder to control 3 LED's and a menu on the LCD screen
 ### Wiring Diagram
 
 ### Code
+Code created by River Lewis
+```python
+import time
+import rotaryio
+import board
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from digitalio import DigitalInOut, Direction, Pull
 
+
+encoder = rotaryio.IncrementalEncoder(board.D3, board.D2)
+last_position = 0
+btn = DigitalInOut(board.D4)
+btn.direction = Direction.INPUT
+btn.pull = Pull.UP
+state = 0
+Buttonyep = 1
+
+i2c = board.I2C()
+lcd = LCD(I2CPCF8574Interface(i2c, 0x3f), num_rows=2, num_cols=16)
+
+ledGreen = DigitalInOut(board.D8)
+ledYellow = DigitalInOut(board.D9)
+ledRed = DigitalInOut(board.D10)
+ledGreen.direction = Direction.OUTPUT
+ledYellow.direction = Direction.OUTPUT
+ledRed.direction = Direction.OUTPUT
+
+while True:
+    position = encoder.position
+    if position != last_position:
+        if position > last_position:
+            state = state + 1
+        elif position < last_position:
+            state = state - 1
+        if state > 2:
+            state = 2
+        if state < 0:
+            state = 0
+        print(state)
+        if state == 0: 
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Go")
+        elif state == 1:
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Caution")
+        elif state == 2:
+            lcd.clear()
+            lcd.set_cursor_pos(0, 0)
+            lcd.print("Stop")
+    if btn.value == 0 and Buttonyep == 1:
+        print("buttion")
+        if state == 0: 
+                ledGreen.value = True
+                ledRed.value = False
+                ledYellow.value = False
+        elif state == 1:
+                ledYellow.value = True
+                ledRed.value = False
+                ledGreen.value = False
+        elif state == 2:
+                ledRed.value = True
+                ledGreen.value = False
+                ledYellow.value = False
+        Buttonyep = 0
+    if btn.value == 1:
+        time.sleep(.1)
+        Buttonyep = 1
+    last_position = position
+    ```
 ### Reflection
-
+Overall, this project was very challenging because it was hard to figure out how to ge tthe proper if then statements for the encoder. I ended up getting stuck on it for a week and I never came back to it until now. From thsi project, I learned how to create menus on lcd screens, how to use a rotary encoder, and how to better use If Else staements in circuit python. 
 ## Photointerrupter
 
 ### Description
