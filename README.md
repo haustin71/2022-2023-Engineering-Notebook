@@ -394,7 +394,7 @@ while True:
         time.sleep(.1)
         Buttonyep = 1
     last_position = position
-    ```
+```
 ### Reflection
 Overall, this project was very challenging because it was hard to figure out how to ge tthe proper if then statements for the encoder. I ended up getting stuck on it for a week and I never came back to it until now. From thsi project, I learned how to create menus on lcd screens, how to use a rotary encoder, and how to better use If Else staements in circuit python. 
 ## Photointerrupter
