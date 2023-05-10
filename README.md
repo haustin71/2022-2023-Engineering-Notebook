@@ -405,13 +405,38 @@ Overall, this project was very challenging because it was hard to figure out how
 ## Photointerrupter
 
 ### Description
-
+For this Assignment, I was tasked with creating code that can count the number of times a photointerruptor is interrupted.
 ### Wiring Diagram
 
 ### Code
 
-### Reflection
+Credit to River Lewis for the code.
+```python
+import time # Import the time module
+import digitalio # Import the digitalio module 
+import board # Import the board module 
 
+photoI = digitalio.DigitalInOut(board.D8) # connect the interruptor to pin 8
+photoI.direction = digitalio.Direction.INPUT 
+photoI.pull = digitalio.Pull.UP # Enable the internal pull-up resistor for the pin
+
+
+last_photoI = True # Initialize the previous state of thesensor as True 
+last_update = -4 # Initialize the last time as 4 seconds ago
+
+photoIpass = 0 # Initialize the counter for sensor passthrough as 0
+
+while True: # Start an infinite loop
+    if time.monotonic() - last_update > 4: # Check if 4 seconds have passed since the last update
+        print(f"The number of interrupts is {photoIpass}") # Print the number of crossings
+        last_update = time.monotonic() # Update the last update time to the current time
+
+    if last_photoI != photoI.value and not photoI.value: # Check if the state of the photoI sensor has changed from HIGH to LOW (crossing detected)
+        photoIpass += 1 # Increment the counter for photoI sensor crossings
+    last_photoI = photoI.value # Update the previous state of the photoI sensor with the current state
+```
+### Reflection
+Overall, this assignment was very easy because I already had photointerruptor code and the only hard part was trying to find the correct way to write the counter. From this assignment, I learned how to use variables for counters as well as understanding how states work in circuit python
 ## Onshape_Certification
 
 ### Description
