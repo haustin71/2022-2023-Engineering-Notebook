@@ -325,7 +325,7 @@ For this assignment, I was tasked with using a rotary encoder as an input to con
 
 ![encoder](https://github.com/haustin71/CircuitPython/blob/7dfdfee909f969791203d807e9455d8382333b7c/Images%20and%20Videos/IMG_0900.mov)
 
-
+https://user-images.githubusercontent.com/71406907/197803297-9471980e-0907-41c7-9093-cd9c9b0be88d.mov
 
 ### Code
 Code created by River Lewis
