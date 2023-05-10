@@ -323,7 +323,7 @@ For this assignment, I was tasked with using a rotary encoder as an input to con
 ### Wiring Diagram and Evidence
 ![Rotarty Encoder Diagram](https://github.com/haustin71/Circuit-Python/blob/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
 
-https://github.com/haustin71/Circuit-Python/blob/a61b6164392024f7918adf3ae386b85396ae8a84/Images%20and%20Videos/IMG_0900.mp4
+https://github.com/haustin71/Circuit-Python/blob/5601f61988aa0288e2e310656304e4113abaab01/Images%20and%20Videos/IMG_0900.mov
 ### Code
 Code created by River Lewis
 ```python
