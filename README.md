@@ -323,9 +323,9 @@ For this assignment, I was tasked with using a rotary encoder as an input to con
 ### Wiring Diagram and Evidence
 ![Rotarty Encoder Diagram](https://github.com/haustin71/Circuit-Python/blob/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
 
-https://user-images.githubusercontent.com/71406907/197800787-38db0131-d6d9-48df-8e73-7363c4fc47f9.mp4
+![encoder](https://user-images.githubusercontent.com/71406907/197800787-38db0131-d6d9-48df-8e73-7363c4fc47f9.mp4)
 
-file:///home/chronos/u-7cad54f1494875629071d6be98ecbc66ce09ebae/MyFiles/Downloads/IMG_0801%20(1)%20(3).mp4
+![encoder 2](file:///home/chronos/u-7cad54f1494875629071d6be98ecbc66ce09ebae/MyFiles/Downloads/IMG_0801%20(1)%20(3).mp4)
 
 ### Code
 Code created by River Lewis
