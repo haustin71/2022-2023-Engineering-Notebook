@@ -407,6 +407,8 @@ Overall, this project was very challenging because it was hard to figure out how
 ### Description
 For this Assignment, I was tasked with creating code that can count the number of times a photointerruptor is interrupted.
 ### Wiring Diagram
+https://drive.google.com/file/d/1h6sT3zMyB1--jxu7zV853948mxv8F4_b/view
+
 
 ### Code
 
