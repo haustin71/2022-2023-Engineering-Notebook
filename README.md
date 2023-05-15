@@ -266,7 +266,7 @@ This is the Cylinder Assembly for questions 3 and 4
 
 [Holden A Multi-Part Studio Document](https://cvilleschools.onshape.com/documents/cc8d8824d0cb3cc32b86f00c/w/83e26c2c310fc5a85afd3479/e/99d8d6019cf8e8d9a5570a31?renderMode=0&uiState=6359d2b7b7948a2d7b607883)
 ### Reflection
-Overall I enjoyed this asignment because it was really good practice for the Onshape Certification Test. I didn't have much trouble when I was creating the parts, the only two problems that I had were, creating the revolve cut around the ring on the top cap and trying to get the weight to be exact. To create the correct revolve cut, I needed to switch the plane of the sketch so that it was on the top cap instead of above the top cap. Once I did that, I could then revolve the ring with the cut around the hole where the plunger went. As for the weight, I went back and checked all of my changed measurements for the questions and I realised that I forgot to change 1 or 2 dimesions which slightly changed the weight. From completing this assignment, I learned how to better read drawings and find the connection between them.
+Overall I enjoyed this assignment because it was really good practice for the Onshape Certification Test. I didn't have much trouble when I was creating the parts, the only two problems that I had were, creating the revolve cut around the ring on the top cap and trying to get the weight to be exact. To create the correct revolve cut, I needed to switch the plane of the sketch so that it was on the top cap instead of above the top cap. Once I did that, I could then revolve the ring with the cut around the hole where the plunger went. As for the weight, I went back and checked all of my changed measurements for the questions and I realised that I forgot to change 1 or 2 dimesions which slightly changed the weight. From completing this assignment, I learned how to better read drawings and find the connection between them.
 
 ## Temperature_Sensor
 
@@ -314,7 +314,7 @@ while True:
         lcd.print("Too Hot!")
 ```
 ### Reflection
-Overall, this assignment was really hard because3 I struggled with trying to get VS code to work because there was a software issue that lasted for a week. One of the biggest Issues that I had with the code was getting the LCD to display text as well as getting the LCD to display the right information. I probably would've finished the assignment earlier if VS code was working when I first started.
+Overall, this assignment was really hard because I struggled with trying to get VS code to work because there was a software issue that lasted for a week. One of the biggest Issues that I had with the code was getting the LCD to display text as well as getting the LCD to display the right information. I probably would've finished the assignment earlier if VS code was working when I first started.
 
 ## Rotary_Encoder
 
@@ -401,7 +401,7 @@ while True:
     last_position = position
 ```
 ### Reflection
-Overall, this project was very challenging because it was hard to figure out how to ge tthe proper if then statements for the encoder. I ended up getting stuck on it for a week and I never came back to it until now. From thsi project, I learned how to create menus on lcd screens, how to use a rotary encoder, and how to better use If Else staements in circuit python. 
+Overall, this project was very challenging because it was hard to figure out how to ge tthe proper if then statements for the encoder. I ended up getting stuck on it for a week and I never came back to it until now. From this project, I learned how to create menus on LCD screens, how to use a rotary encoder, and how to better use If Else statements in circuit python. 
 ## Photointerrupter
 
 ### Description
@@ -441,6 +441,6 @@ while True: # Start an infinite loop
 Overall, this assignment was very easy because I already had photointerruptor code and the only hard part was trying to find the correct way to write the counter. From this assignment, I learned how to use variables for counters as well as understanding how states work in circuit python
 ## Onshape_Certification
 
-### Description
+### Evidence
 
 ### Reflection
