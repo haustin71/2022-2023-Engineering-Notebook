@@ -442,5 +442,5 @@ Overall, this assignment was very easy because I already had photointerruptor co
 ## Onshape_Certification
 
 ### Evidence
-![Onshape Certificate](https://github.com/haustin71/Circuit-Python/blob/9e266000af0deeb57358e3a41d708e459c2591cd/Images%20and%20Videos/holden-austin-f1b58346-4168-436b-87d7-ca7618fd800a-certificate.pdf)
+![Onshape Certificate]()
 ### Reflection
