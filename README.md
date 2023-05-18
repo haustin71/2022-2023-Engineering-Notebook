@@ -407,6 +407,9 @@ Overall, this project was very challenging because it was hard to figure out how
 ### Description
 For this Assignment, I was tasked with creating code that can count the number of times a photointerruptor is interrupted.
 ### Wiring Diagram
+
+![Photointerruptor Wiring](https://github.com/haustin71/Circuit-Python/blob/cb3d3fcdbf168837dfdcd40e60ce7b07fd8b738e/Images%20and%20Videos/Photinteruptor.PNG)
+
 Proof that I completed the asssignment can be found [here](https://drive.google.com/file/d/1h6sT3zMyB1--jxu7zV853948mxv8F4_b/view)
 
 
