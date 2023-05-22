@@ -275,7 +275,7 @@ I was tasked with using a temperature sensor as an input and a LCD Screen as an 
 ### Wiring Diagram and proof
 https://drive.google.com/file/d/1gXm_q0GuKIwf2bQAusHXyGtgnoYSu_NE/view
 
-
+![Temp Sensor Wiring Diagram](https://github.com/haustin71/Circuit-Python/blob/8a94a191eccf9552e63e1930c6c17e880ba3f026/Images%20and%20Videos/Temp%20sensor.PNG)
 
 ### Code
 ```python
