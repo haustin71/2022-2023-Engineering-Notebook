@@ -272,7 +272,10 @@ Overall I enjoyed this assignment because it was really good practice for the On
 
 ### Description
 I was tasked with using a temperature sensor as an input and a LCD Screen as an output to display the current temperature.
-### Wiring Diagram
+### Wiring Diagram and proof
+https://drive.google.com/file/d/1gXm_q0GuKIwf2bQAusHXyGtgnoYSu_NE/view
+
+
 
 ### Code
 ```python
