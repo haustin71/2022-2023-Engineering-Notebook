@@ -326,7 +326,7 @@ For this assignment, I was tasked with using a rotary encoder as an input to con
 ### Wiring Diagram and Evidence
 ![Rotarty Encoder Diagram](https://github.com/haustin71/Circuit-Python/blob/43b5247dc4f9c58f2804cb8cabea0733aec0314b/Images%20and%20Videos/RotaryEncoder%20Wiring%20Diagram.PNG)
 
-https://drive.google.com/file/d/1dTmfWFnzzZsosa02e_RmEMOMPM2Gd2NW/view
+Proof can be found [here](https://drive.google.com/file/d/1dTmfWFnzzZsosa02e_RmEMOMPM2Gd2NW/view)
 
 
 
